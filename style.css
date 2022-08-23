@@ -1,0 +1,27 @@
+.row {
+display: flex;
+height: 100px;
+width: 100%;
+background-color: #900C3F;
+}
+
+.col, .col-2, .col-3 {
+margin: 10px;
+padding: 10px;
+}
+
+.col {
+flex: 1;
+background-color: #C70039;
+}
+
+.col-2 {
+flex: 2;
+background-color: #FF5733;
+}
+
+.col-3 {
+flex: 3;
+background-color: #FFC30F;
+}
+
